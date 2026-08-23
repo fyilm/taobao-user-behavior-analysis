@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# uv
+.uv/
+
+# 原始数据（3.67GB，不进 git）
+data/raw/
+
+# 清洗后中间产物（parquet 等大文件）
+data/processed/*.parquet
+data/processed/*.csv
+
+# 输出（聚合 CSV 小文件保留入库；图表不入库；用户级明细可再生成故不入库）
+output/figures/
+output/tables/rfm_user_level.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB 磁盘溢写临时目录
+.tmp/
+
+# 系统
+.DS_Store
+Thumbs.db

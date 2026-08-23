@@ -1,0 +1,11 @@
+[project]
+name = "taobao-user-behavior"
+version = "0.1.0"
+description = "淘宝用户行为数据分析：漏斗分析 + RFM 分层 + Tableau 可视化"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.5",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+]
