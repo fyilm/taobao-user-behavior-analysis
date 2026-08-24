@@ -44,7 +44,7 @@ uv run python scripts/run_rfm.py          # RFM 分层
 - **类目**：存在「高流量低转化」类目（转化率仅 4%~6%），流量与转化效率不匹配。
 - **时间**：晚间 20:00–22:00 为流量高峰，周末流量大但转化低。
 
-详细分析与策略建议见 `docs/analysis_report.md`。
+详细分析与策略建议见 `docs/analysis_report.md`，各表字段含义见 `docs/data_dictionary.md`。
 
 ## 数据说明
 - 原始数据无表头，字段为 `user_id, item_id, category_id, behavior_type, timestamp(Unix 秒)`。
