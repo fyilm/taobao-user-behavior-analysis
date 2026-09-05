@@ -10,6 +10,7 @@ venv/
 
 # 原始数据（3.67GB，不进 git）
 data/raw/
+SCMS_Delivery_History_data.csv
 
 # 清洗后中间产物（parquet 等大文件）
 data/processed/*.parquet
